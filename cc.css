@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.hover-box {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hover-box:hover {
+  background-color: #333;
+}
+
+.character-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.character-box {
+  background-color: black; /* Set the background color for the black box */
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.character-info img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.character-info h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #FFD700; /* Set the color for the heading, you can change it to your preference */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Convert the text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing for style */
+}
+
+
+.character-info p1 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #FFF;
+  border-radius: 0 0 10px 10px;
+}
+
+audio {
+  display: none;
+}
